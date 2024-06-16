@@ -3,11 +3,17 @@ Simple Autoclicker For Banana in Python
 
 Focuses Game and Clicks once an hour to ensure you always get your drops
 
-## Requirements 
+## (Optional) Requirements 
  - Python (https://www.python.org/downloads)
  - ```pip install pywinauto keyboard```
 
 ## How To Use
+### Using EXE
+ - Download https://github.com/0xGingi/simple-banana-autoclicker/releases/download/v1/clickbanana.exe
+ - Open Banana
+ - run clickbanana.exe
+ - Press ```]``` to start/stop
+### Using Python
  - Open Banana
  - run command ```python clickbanana.py```
  - Press ```]``` to start/stop
