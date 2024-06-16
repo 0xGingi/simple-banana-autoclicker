@@ -12,5 +12,6 @@ Focuses Game and Clicks once an hour to ensure you always get your drops
  - run command ```python clickbanana.py```
  - Press ```]``` to start/stop
 
- - Change the banana location in clickbanana.py if you have installed on an drive on line 5
- - change the ```]``` key to something else on line 12
+## Other
+ - Change the banana location if you have installed on an drive or location on ```line 5```
+ - change the ```]``` key to something else on ```line 12```
