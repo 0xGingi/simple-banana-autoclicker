@@ -15,7 +15,7 @@ Focuses Game and Clicks once an hour to ensure you always get your drops
 
 ## How To Use
 ### Using EXE
- - Download https://github.com/0xGingi/simple-banana-autoclicker/releases/download/v1/clickbanana.exe
+ - Download & unzip https://github.com/0xGingi/simple-banana-autoclicker/releases/download/v2/clickbanana.zip
  - Open Banana
  - run clickbanana.exe
  - Press ```]``` to start/stop
