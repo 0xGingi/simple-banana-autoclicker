@@ -8,7 +8,7 @@ Simple Autoclicker For Banana in Python
 ## How To Use
  - Open Banana
  - run command ```python clickbanana.py```
- - Press ```[``` to start/stop
+ - Press ```]``` to start/stop
 
  - Change the banana location in clickbanana.py if you have installed on an drive on line 5
- - change the ```[``` key to something else on line 12
+ - change the ```]``` key to something else on line 12
