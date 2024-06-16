@@ -21,3 +21,5 @@ Focuses Game and Clicks once an hour to ensure you always get your drops
 ## Other
  - Change the banana location if you have installed on an drive or location on ```line 5```
  - change the ```]``` key to something else on ```line 12```
+
+![image](https://github.com/0xGingi/simple-banana-autoclicker/assets/104647854/2d9e3b91-217f-4e2c-9bd9-6b536b53dabc)
