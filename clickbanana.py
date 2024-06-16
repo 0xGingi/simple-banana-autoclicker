@@ -36,17 +36,17 @@ def toggle_running(e):
         if not app:
             app = connect_to_application()
             if not app:
-                print("Application is not running. Please start the application manually or press 'o' to open it.")
+                print("Application is not running. Please start the application manually or press '[' to open it.")
                 return
     running = not running
 
 keyboard.on_press_key("]", toggle_running, suppress=True)
 
-print("Script started! Press 'o' to open Banana application. Press ']' to start and stop clicking. Press [ESC] to exit.")
+print("Script started! Press '[' to open Banana application. Press ']' to start and stop clicking. Press [ESC] to exit.")
 
 try:
     while True:
-        if keyboard.is_pressed('o'):
+        if keyboard.is_pressed('['):
             app = start_application()
             print("Waiting for the application to load...")
             time.sleep(10)  # Wait for the application to fully load (adjust as needed)
@@ -56,7 +56,7 @@ try:
         if running and app:
             try:
                 dlg = app.window(title=window_title)
-                dlg.click_input(coords=(960, 540))
+                dlg.click_input(coords=(320, 320))
                 print("Clicked Banana")
             except Exception as e:
                 print(f"Failed to click banana: {e}")
