@@ -3,6 +3,12 @@ Simple Autoclicker For Banana in Python
 
 Focuses Game and Clicks once an hour to ensure you always get your drops
 
+## Features
+- Automatically clicks in the Banana game once an hour.
+- Easy to use: start/stop the autoclicker with a single key press.
+- Works with both the executable and Python script.
+- Optionally, open the Banana game directly by pressing ```o``` when using the Python script.
+
 ## (Optional) Requirements 
  - Python (https://www.python.org/downloads)
  - ```pip install pywinauto keyboard```
@@ -19,7 +25,9 @@ Focuses Game and Clicks once an hour to ensure you always get your drops
  - Press ```]``` to start/stop
 
 ## Other
- - Change the banana location if you have installed on an drive or location on ```line 5```
- - change the ```]``` key to something else on ```line 12```
+ - Change the banana location if you have installed on an drive or location on ```line 6```
+ - change the ```]``` key to something else on ```line 43```
+ - change the ```o``` key to something else on ```line 49```
+ - script made for 1920x1080 resolution, you can change click position on ```line 59```
 
-![image](https://github.com/0xGingi/simple-banana-autoclicker/assets/104647854/2d9e3b91-217f-4e2c-9bd9-6b536b53dabc)
+![image](https://media.discordapp.net/attachments/1019266578421927999/1251935872870252645/image.png?ex=667063a3&is=666f1223&hm=70fa1aa7316e6c90448aef3a5654083959422692d5ca91569e6164aa9853ae6b&=&format=webp&quality=lossless&width=1440&height=654)
