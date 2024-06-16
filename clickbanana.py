@@ -15,4 +15,4 @@ while True:
     if running:
         dlg = app.window(title='Banana')
         dlg.click_input(coords=(320, 320))
-        time.sleep(1)
+        time.sleep(3600)
